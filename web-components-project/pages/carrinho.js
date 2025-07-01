@@ -3,7 +3,7 @@ let cart = [
     id: 1,
     title: "PC Gamer Aquario Branco Ryzen 5 5500",
     desc: "Computadores",
-    image: "/web-components-project/img/pc6-Photoroom.png",
+    image: "../img/pc6-Photoroom.png",
     pricePix: 5940.80, 
     price: 6840.80,    
     qty: 1
