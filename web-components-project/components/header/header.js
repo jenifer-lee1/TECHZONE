@@ -3,7 +3,7 @@ class HeaderComponent extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.innerHTML = `
-      <link rel="stylesheet" href="/web-components-project/components/header/header.css">
+      <link rel="stylesheet" href="web-components-project/components/header/header.css">
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
       <header>
@@ -23,10 +23,10 @@ class HeaderComponent extends HTMLElement {
 
         <div class="header-right">
           <div class="icons">
-            <a href="/web-components-project/pages/login.html">
+            <a href="web-components-project/pages/login.html">
               <i class='bx bx-user'></i><span>Entrar/ Criar conta</span>
             </a>
-            <a href="/web-components-project/pages/carrinho.html">
+            <a href="web-components-project/pages/carrinho.html">
               <i class='bx bx-cart'></i><span>Carrinho</span>
             </a>
             <div id="menu-icon" class="bx bx-menu" aria-label="Abrir menu mobile"></div>
@@ -41,10 +41,10 @@ class HeaderComponent extends HTMLElement {
         </div>
         <nav class="offcanvas-nav">
           <ul>
-            <li><a href="/web-components-project/pages/login.html"><i class='bx bx-user'></i><span>Entrar / Criar conta</span></a></li>
-            <li><a href="/web-components-project/pages/carrinho.html"><i class='bx bx-cart'></i><span>Carrinho</span></a></li>
+            <li><a href="web-components-project/pages/login.html"><i class='bx bx-user'></i><span>Entrar / Criar conta</span></a></li>
+            <li><a href="web-components-project/pages/carrinho.html"><i class='bx bx-cart'></i><span>Carrinho</span></a></li>
             <li class="separator"><hr></li>
-            <li><a href="/web-components-project/pages/filtro.html"><i class='bx bx-grid-alt'></i><span>Produtos</span></a></li>
+            <li><a href="web-components-project/pages/filtro.html"><i class='bx bx-grid-alt'></i><span>Produtos</span></a></li>
             <li><a href="#"><i class='bx bx-tag'></i><span>Ofertas</span></a></li>
             <li><a href="#"><i class='bx bx-desktop'></i><span>Monitores</span></a></li>
           </ul>
